@@ -3,7 +3,8 @@ const mongoose = require("mongoose")
 const enquirySchema = mongoose.Schema({
    name:String,
    email:String,
-   phone:Number
+   phone:Number,
+   url:String,
 },{
     versionKey:false
 })
